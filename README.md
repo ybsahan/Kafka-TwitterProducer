@@ -4,6 +4,8 @@ Download & Extract the Kafka binaries from https://kafka.apache.org/downloads
 
 Try Kafka commands using bin/kafka-topics.sh (for example)
 
+Take Twitter API on https://developer.twitter.com/
+
 Edit PATH to include Kafka (in ~/.bashrc for example) PATH="$PATH:/your/path/to/your/kafka/bin"
 
 Edit Zookeeper & Kafka configs using a text editor
