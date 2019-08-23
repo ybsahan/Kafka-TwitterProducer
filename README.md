@@ -15,3 +15,7 @@ server.properties: log.dirs=/your/path/to/data/kafka
 Start Zookeeper in one terminal window: zookeeper-server-start.sh config/zookeeper.properties
 
 Start Kafka in another terminal window: kafka-server-start.sh config/server.properties
+
+Run your code on your IDE
+
+Open new terminal and run kafka console consumer on your terminal : kafka-console-consumer --bootstrap-server 127.0.0.1:9092 --(topic name)
